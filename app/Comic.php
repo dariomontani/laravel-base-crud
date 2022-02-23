@@ -11,6 +11,8 @@ class Comic extends Model
         'author',
         'genre',
         'price',
-        'description'
+        'description',
+        'created_at',
+        'updated_at'
     ];
 }
