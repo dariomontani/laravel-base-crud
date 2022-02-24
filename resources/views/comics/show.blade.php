@@ -10,4 +10,5 @@
             <li>{{ $key }}: {{ $value }}</li>
         @endforeach
     </ul>
+    <a class="btn btn-primary" href="{{url()->previous()}}">back</a>
 @endsection
