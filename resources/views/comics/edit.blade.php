@@ -8,7 +8,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <form action="{{route('comics.store')}}" method="post">
+            <form action="{{route('comics.update', $comic->id)}}" method="post">
                 @csrf
                 @method('PATCH')
                 <div class="mb-3 row">
